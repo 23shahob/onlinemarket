@@ -1,0 +1,513 @@
+@media (max-width: 425px) {
+  .container {
+    padding: 0 16px;
+  }
+  .header {
+    .header__top {
+      .header__top-holder {
+        .top__left {
+          display: none;
+        }
+        .top__right {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+    }
+    .header__nav {
+      .nav__holder {
+        .nav__left {
+          display: none;
+        }
+        .nav__middle {
+          display: none;
+        }
+        .nav__right {
+          display: flex;
+          margin: 0 auto;
+          gap: 15px;
+        }
+      }
+    }
+  }
+  .hero {
+    .hero__wrapper {
+      .hero__left {
+        .suptitle {
+          font-size: 10px;
+        }
+        .hero__title {
+          font-size: 15px;
+        }
+      }
+      .hero__right {
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+  .main {
+    .section1__holder {
+      .section1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        .free__holder {
+          display: flex;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .section2__holder {
+      .section2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        .big {
+          width: 250px;
+          height: 200px;
+        }
+        img {
+          width: 280px;
+          display: flex;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .product__holder {
+      display: flex;
+      margin: 0 auto;
+      .product {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        .card__holder {
+          .card__wrapper {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+
+            .cardHolder {
+              display: flex;
+              flex-direction: column;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+    .mackup__box {
+      .section3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        .big {
+          width: 300px;
+          height: 200px;
+        }
+        img {
+          display: flex;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .new__products-holder {
+      .new__products {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        .card__wrapper2 {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          gap: 20px;
+
+          .cardHolder2 {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .blogs__holder {
+      .blogs {
+        .blog__card {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          gap: 20px;
+
+          .each__card {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .section4__holder {
+      .section4 {
+        display: block;
+      }
+    }
+    .footer {
+      .footer__holder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        .about__site {
+          width: 300px;
+        }
+        .newsletter {
+          width: 300px;
+          form {
+            width: 250px;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    .footer__holder {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+      .about__site {
+        width: 300px;
+      }
+      .newsletter {
+        width: 300px;
+        form {
+          width: 250px;
+        }
+      }
+    }
+    .footer__line {
+      .footer__right {
+        display: none;
+      }
+    }
+  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+  .header {
+    .header__top {
+      .header__top-holder {
+        .top__left {
+          display: none;
+        }
+        .top__right {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+    }
+    .header__nav {
+      .nav__holder {
+        .nav__middle {
+          display: none;
+        }
+        .nav__right {
+          gap: 15px;
+        }
+      }
+    }
+  }
+  .hero {
+    .hero__wrapper {
+      .hero__left {
+        .suptitle {
+          font-size: 10px;
+        }
+        .hero__title {
+          font-size: 15px;
+        }
+      }
+      .hero__right {
+        img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+  }
+  .main {
+    .section1__holder {
+      .section1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        .free__holder {
+          display: flex;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .section2__holder {
+      .section2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        .big {
+          width: 400px;
+          height: 300px;
+        }
+        img {
+          display: flex;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .product__holder {
+      display: flex;
+      margin: 0 auto;
+      .product {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        .card__holder {
+          .card__wrapper {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+
+            .cardHolder {
+              display: flex;
+              flex-direction: column;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+    .mackup__box {
+      .section3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        .big {
+          width: 400px;
+          height: 300px;
+        }
+        img {
+          display: flex;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .new__products-holder {
+      .new__products {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        .card__wrapper2 {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          gap: 20px;
+
+          .cardHolder2 {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .blogs__holder {
+      .blogs {
+        .blog__card {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          gap: 20px;
+
+          .each__card {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .section4__holder {
+      .section4 {
+        display: block;
+      }
+    }
+    .footer {
+      .footer__holder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        .about__site {
+          width: 300px;
+        }
+        .newsletter {
+          width: 300px;
+          form {
+            width: 250px;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    .footer__holder {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+      .about__site {
+        width: 300px;
+      }
+      .newsletter {
+        width: 300px;
+        form {
+          width: 250px;
+        }
+      }
+    }
+    .footer__line {
+      .footer__right {
+        display: none;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 0 60px;
+  }
+  .header {
+    .header__nav {
+      .nav__holder {
+        .nav__middle {
+          display: none;
+        }
+      }
+    }
+  }
+  .main {
+    .section1__holder {
+      .section1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .free__holder {
+          display: flex;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .section2__holder {
+      .section2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        .big {
+          width: 400px;
+          height: 300px;
+        }
+        img {
+          display: flex;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .product__holder {
+      .product {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        .card__holder {
+          .card__wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+          }
+        }
+      }
+    }
+    .mackup__box {
+      .section3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        .big {
+          width: 400px;
+          height: 300px;
+        }
+        f img {
+          display: flex;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .new__products-holder {
+      .new__products {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        .card__wrapper2 {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 20px;
+        }
+      }
+    }
+    .blogs__holder {
+      .blogs {
+        .blog__card {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 20px;
+        }
+      }
+    }
+    .section4__holder {
+      .section4 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+    }
+  }
+  .footer {
+    .footer__holder {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      .about__site {
+        width: 300px;
+      }
+      .newsletter {
+        width: 300px;
+        form {
+          width: 250px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .main {
+    .blogs__holder {
+      .blogs {
+        .blog__card {
+            display: flex;
+            justify-content: space-between;
+          .each__card {
+            width: 280px;
+          }
+        }
+      }
+    }
+  }
+  .big {
+    width: 500px;
+  }
+}

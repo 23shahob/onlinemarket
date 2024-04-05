@@ -1,0 +1,186 @@
+.footer {
+  background: rgb(239, 239, 239);
+  padding-top: 80px;
+  &__holder {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 95px;
+    .about__site {
+      width: 400px;
+      img {
+        width: 114px;
+        height: 34px;
+        margin-bottom: 24.4px;
+      }
+      p {
+        color: rgb(86, 86, 86);
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24.01px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 29.6px;
+      }
+      .social {
+        display: flex;
+        gap: 10px;
+        button {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          padding: 5px;
+          border: none;
+          background: rgb(255, 255, 255);
+          cursor: pointer;
+
+          img {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
+    .information {
+      width: 196px;
+      p {
+        color: rgb(17, 17, 17);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22.5px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: capitalize;
+        margin-bottom: 18.7px;
+      }
+      .first__line {
+        background: rgb(90, 90, 201);
+        border: none;
+        width: 60px;
+        height: 2px;
+      }
+      .second__line {
+        border: none;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgb(222, 226, 230);
+        margin-bottom: 24.4px;
+      }
+      li {
+        margin-bottom: 5.5px;
+        a {
+          color: rgb(86, 86, 86);
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0%;
+          text-align: left;
+          text-transform: capitalize;
+        }
+      }
+    }
+    .newsletter {
+      width: 416px;
+      p {
+        color: rgb(17, 17, 17);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22.5px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: capitalize;
+        margin-bottom: 18.7px;
+      }
+      .first__line {
+        background: rgb(90, 90, 201);
+        border: none;
+        width: 60px;
+        height: 2px;
+      }
+      .second__line {
+        border: none;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgb(222, 226, 230);
+        margin-bottom: 24.4px;
+      }
+      .text {
+        color: rgb(86, 86, 86);
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: capitalize;
+        margin-bottom: 19.6px;
+      }
+      form {
+        width: 416px;
+        height: 47px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        background: rgb(255, 255, 255);
+        #email {
+          width: 273px;
+          background: transparent;
+          border: none;
+          outline: none;
+          margin: 13.1px 11px;
+        }
+        #email::placeholder {
+          color: rgb(86, 86, 86);
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+        button {
+          width: 100px;
+          height: 47px;
+          right: 0;
+          box-sizing: border-box;
+          border: none;
+          border-top-right-radius: 30px;
+          border-bottom-right-radius: 30px;
+          background: #5a5ac9;
+          cursor: pointer;
+
+          a {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .footer__line {
+    display: flex;
+    align-items: center;
+    height: 54.5px;
+    background: rgb(17, 17, 17);
+    .last__holder {
+        display: flex;
+        justify-content: space-between;
+      .footer__left {
+        p {
+          font-family: Poppins;
+          color: white;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24.01px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
