@@ -1382,4 +1382,446 @@ a {
   letter-spacing: 0%;
   text-align: center;
   text-transform: capitalize;
+}
+.main .cart__items .adding__section {
+  height: 300px;
+}
+.main .calculate {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+.main .calculate__left h2 {
+  color: rgb(17, 17, 17);
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 37.5px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.main .calculate__left .country .place {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+.main .calculate__left .country #country {
+  width: 361px;
+  height: 45px;
+  box-sizing: border-box;
+  border: 1px solid rgb(206, 212, 218);
+  background: rgb(255, 255, 255);
+  padding: 9px 13px;
+  outline: none;
+}
+.main .calculate__left .country #country {
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main .calculate__left .country .code {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+.main .calculate__left .country .zip {
+  width: 361px;
+  height: 45px;
+  box-sizing: border-box;
+  border: 1px solid rgb(206, 212, 218);
+  background: rgb(255, 255, 255);
+  padding: 9px 13px;
+  outline: none;
+}
+.main .calculate__left .country #zip__code {
+  border: none;
+  outline: none;
+  height: 100%;
+}
+.main .calculate__left .country #zip__code::-moz-placeholder {
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main .calculate__left .country #zip__code::placeholder {
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main .calculate__left .country .estimate__btn {
+  width: 130px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid rgb(90, 90, 201);
+  background: rgb(90, 90, 201);
+}
+.main .calculate__left .country .estimate__btn a {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main .calculate__left h3 {
+  color: rgb(17, 17, 17);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.main .calculate__left .coupon__holder {
+  display: flex;
+  gap: 24px;
+}
+.main .calculate__left .coupon__holder .coupon {
+  display: flex;
+  align-items: center;
+  width: 361px;
+  height: 45px;
+  box-sizing: border-box;
+  border: 1px solid rgb(230, 230, 230);
+  padding: 12px 21px;
+}
+.main .calculate__left .coupon__holder .coupon #coupon__code {
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+.main .calculate__left .coupon__holder .coupon__btn {
+  width: 146px;
+  box-sizing: border-box;
+  border: 1px solid rgb(90, 90, 201);
+  background: rgb(90, 90, 201);
+}
+.main .calculate__left .coupon__holder .coupon__btn a {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main .calculate__right .total__holder {
+  width: 526px;
+  height: 218px;
+  padding: 38px 45px;
+  background: rgb(246, 246, 246);
+  margin-bottom: 25px;
+}
+.main .calculate__right .total__holder .product {
+  display: flex;
+  justify-content: space-between;
+}
+.main .calculate__right .total__holder .product p {
+  color: rgb(17, 17, 17);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26.25px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.main .calculate__right .total__holder .shipping {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.main .calculate__right .total__holder .shipping p:first-child {
+  color: rgb(17, 17, 17);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26.25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main .calculate__right .total__holder .shipping p {
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.5px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main .calculate__right .total__holder .total__summa {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(222, 224, 228);
+  border-top: 1px solid rgb(222, 224, 228);
+  padding: 18px 0;
+}
+.main .calculate__right .total__holder .total__summa p {
+  color: rgb(17, 17, 17);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26.25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main .calculate__right .total__holder .total__summa span {
+  color: rgb(90, 90, 201);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main .calculate__right .sending {
+  display: flex;
+  gap: 20px;
+}
+.main .calculate__right .sending .btn1 {
+  width: 157px;
+  height: 46px;
+}
+.main .calculate__right .sending .btn2 {
+  width: 138px;
+  height: 46px;
+}
+.main .calculate__right .sending .btn {
+  padding: 16px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid rgb(90, 90, 201);
+  background: rgb(90, 90, 201);
+}
+.main .calculate__right .sending .btn a {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer {
+  background: rgb(239, 239, 239);
+  padding-top: 80px;
+}
+.footer__holder {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 95px;
+}
+.footer__holder .about__site {
+  width: 400px;
+}
+.footer__holder .about__site img {
+  width: 114px;
+  height: 34px;
+  margin-bottom: 24.4px;
+}
+.footer__holder .about__site p {
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.01px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 29.6px;
+}
+.footer__holder .about__site .social {
+  display: flex;
+  gap: 10px;
+}
+.footer__holder .about__site .social button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  border: none;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.footer__holder .about__site .social button img {
+  width: 30px;
+  height: 30px;
+}
+.footer__holder .information {
+  width: 196px;
+}
+.footer__holder .information p {
+  color: rgb(17, 17, 17);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 18.7px;
+}
+.footer__holder .information .first__line {
+  background: rgb(90, 90, 201);
+  border: none;
+  width: 60px;
+  height: 2px;
+}
+.footer__holder .information .second__line {
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(222, 226, 230);
+  margin-bottom: 24.4px;
+}
+.footer__holder .information li {
+  margin-bottom: 5.5px;
+}
+.footer__holder .information li a {
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.footer__holder .newsletter {
+  width: 416px;
+}
+.footer__holder .newsletter p {
+  color: rgb(17, 17, 17);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 18.7px;
+}
+.footer__holder .newsletter .first__line {
+  background: rgb(90, 90, 201);
+  border: none;
+  width: 60px;
+  height: 2px;
+}
+.footer__holder .newsletter .second__line {
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(222, 226, 230);
+  margin-bottom: 24.4px;
+}
+.footer__holder .newsletter .text {
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 19.6px;
+}
+.footer__holder .newsletter form {
+  width: 416px;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+}
+.footer__holder .newsletter form #email {
+  width: 273px;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: 13.1px 11px;
+}
+.footer__holder .newsletter form #email::-moz-placeholder {
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__holder .newsletter form #email::placeholder {
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__holder .newsletter form button {
+  width: 100px;
+  height: 47px;
+  right: 0;
+  box-sizing: border-box;
+  border: none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: #5a5ac9;
+  cursor: pointer;
+}
+.footer__holder .newsletter form button a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: white;
+}
+.footer .footer__line {
+  display: flex;
+  align-items: center;
+  height: 54.5px;
+  background: rgb(17, 17, 17);
+}
+.footer .footer__line .last__holder {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer__line .last__holder .footer__left p {
+  font-family: Poppins;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.01px;
+  letter-spacing: 0%;
+  text-align: left;
 }/*# sourceMappingURL=styles.css.map */
